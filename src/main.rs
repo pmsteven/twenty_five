@@ -14,7 +14,7 @@ fn main() {
     let file: &str;
     if args.len() < 2 {
         println!("Defaulting to the Wordle word list.");
-        file = "../../Assets/original-wordle.txt";
+        file = "../../Assets/words370K.txt";
     }
     else {
         file = &args[1];
